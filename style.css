@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:aquamarine;
+}
+#new-section{
+   
+    margin:20px 30px;
+}
+#new-section h3{
+    text-align:center;
+    font-family:arial;
+    font-weight:bold;
+    font-style:italic;
+    color:#ffffff;
+    font-size:30px;
+    border-bottom: 5px solid green;
+    padding:10px 0px;
+    margin-bottom:30px;
+}
+#new-section p{
+    text-align:justify;
+    color:red;
+    font-size:25px;
+}
