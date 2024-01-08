@@ -1,0 +1,11 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+h2{
+    font-family:'Courier New', Courier, monospace;
+    color:red;
+    background-color:#dddddd;
+    padding:20px 30px;
+    text-align:center;
+}
