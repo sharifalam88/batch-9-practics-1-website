@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trying to make attractive navbar</title>
+
+    <style>
+        ul li{
+            dispaly:block;
+            float:left;
+            list-style-type:none;
+        }
+        ul li a{
+            text-decoration:none;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size:20px;
+            font-weight:300;
+            padding:10px 15px;
+        }
+        ul li a:hover{
+            text-decoration:underline;
+            cursor:pointer;
+            transition:all 0.9s ease;
+        }
+        .dropdown{
+            display:none;
+            background-color:aqua;
+            padding:10px 5px;
+        }
+        .dropdown li{  
+            float:none;
+            position:left;
+        }
+        ul li:hover .dropdown{
+            display:block;
+            margin-top:5px;
+        }
+    </style>
+
+</head>
+<body>
+    <h2>This is navbar heading.</h2>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Products</a>
+                <ul class="dropdown">
+                    <li><a href="#">Potato</a></li>
+                    <li><a href="#">Onion</a></li>
+                    <li><a href="#">Garlic</a></li>
+                    <li><a href="#">Red chili</a></li>
+                    <li><a href="#">Ginger</a></li>
+                </ul>
+            </li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+
+</body>
+</html>

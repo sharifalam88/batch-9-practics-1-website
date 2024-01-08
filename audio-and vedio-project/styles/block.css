@@ -1,0 +1,16 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.audio{
+    width:100%;
+    height:50px;
+    padding:20px 0px;
+}
+label{
+    display:block;
+    margin-bottom:10px;
+}
+input{
+    padding:5px 10px;
+}

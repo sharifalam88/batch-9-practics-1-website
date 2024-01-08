@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practicing HTML table</title>
+    <style>
+        table{
+            border-collapse:collapse;
+        }
+        td{
+            border:2.5px solid green;
+            padding:5px 15px;
+        }
+        thead td{
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-size:20px;
+            font-weight:300;
+        }
+    </style>
+
+</head>
+<body>
+    <h2>Draw html table</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <td>No</td>
+                <td>Full Name</td>
+                <td>Position</td>
+                <td>Salary</td>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Bil gets</td>
+                <td>Microsoft</td>
+                <td>$1000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Steve Jobs</td>
+                <td>Apple</td>
+                <td>$1200</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Lary pages</td>
+                <td>Google</td>
+                <td>$1300</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Mark zuckeberg</td>
+                <td>Facebook</td>
+                <td>$1500</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="4">Total Employee : 4</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

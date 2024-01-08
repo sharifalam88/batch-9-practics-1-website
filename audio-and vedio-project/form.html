@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Html form</title>
+    
+    <style>
+        label{
+            display:block;
+            margin-bottom:10px;
+        }
+        .textA{
+            margin-top:20px;
+            
+        }
+        #area{
+            display:block;
+            margin-bottom:20px;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h2>Trying to make a html form</h2>
+    </header>
+
+    <main>
+        <section>
+            <form action="">
+                <label for="name">Your Name:
+                    <input type="text" placeholder="Enter your Name" id="name">
+                </label>
+
+                <label for="email">Your Email:
+                    <input type="text" placeholder="Enter your Email">
+                </label>
+
+                <label for="phone">Your Phone:
+                    <input type="number" placeholder="Enter your phone Number" id="phone">
+                </label>
+
+                <fieldset>
+                    <legend>Chose a Pitha</legend>
+
+                    <label for="chitoi">
+                        <input type="radio" id="chitoi" name="pita"> Chitoi
+                    </label>
+
+                    <label for="vapha">
+                        <input type="radio" id="vapha" name="pita"> Vapha
+                    </label>
+
+                    <label for="fulpitha">
+                        <input type="radio" id="fulpitha" name="pita"> Fulpitha
+                    </label>
+
+                    <label for="pori">
+                        <input type="radio" id="pori" name="pita"> Pori
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Take your vorta</legend>
+
+                    <label for="sutki">
+                        <input type="checkbox" id="sutki"> Sutki
+                    </label>
+
+                    <label for="doniya">
+                        <input type="checkbox" id="doniya"> Doniya
+                    </label>
+
+                    <label for="sorisha">
+                        <input type="checkbox" id="sorisha"> Sorisha
+                    </label>
+
+                    <label for="morice">
+                        <input type="checkbox" id="morice"> Morice
+                    </label>
+                </fieldset>
+
+                <label for="area" class="textA"> Your opinion for Pitha</label>
+                <textarea name="" id="area" cols="50" rows="10">
+                    
+                </textarea>
+
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <h2>@copy; All right reserved Programming hero.</h2>
+    </footer>
+
+</body>
+</html>
