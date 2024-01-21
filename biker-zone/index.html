@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Biker Zone </title>
+    <!-- Link for tailwind and daisyui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google poppins font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+   <!-- Custom Style -->
+   <style>
+    .font-poppins{
+      font-family: 'Poppins', sans-serif;
+    }
+   </style>
+
+    <!-- Custom color code -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d',
+              'bike-primary': '#E76F51',
+            }
+          }
+        }
+      }
+    </script>
+
+</head>
+<body class="font-poppins">
+    <!-- start header section -->
+    <header class="mx-8 lg:mx-20 my-10">
+
+      <div class="navbar bg-base-100">
+
+        <div class=" flex-1">
+          <a class="btn btn-ghost text-2xl md:text-black md:font-normal lg:text-4xl lg:text-black lg:font-bold">Bike Dekho</a>
+        </div>
+
+
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1 font-medium text-black text-base">
+            <li><a>Home</a></li>
+            <li><a>Shop</a></li>
+            <li><a>News</a></li>
+            <li><a>Contact</a></li>
+          </ul>
+        </div> 
+
+          <div class="mr-5">
+            <a class="cursor-pointer rounded-lg bg-bike-primary px-12 py-4 text-center text-xl text-white font-bold">Login</a>
+          </div>
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost md:hidden ">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-6 right-2 z-[1] p-2 shadow bg-red-100 rounded-box w-44 items-center font-medium text-black text-base">
+             <li><a>Home</a></li>
+            <li><a>Shop</a></li>
+            <li><a>News</a></li>
+            <li><a>Contact</a></li>
+            </ul>
+          </div>
+
+        
+      </div>
+
+    </header>
+    <!-- End header section -->
+    
+</body>
+</html>
